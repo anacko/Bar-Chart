@@ -10,17 +10,30 @@
       <h1>A simple Bar Chart</h1>
       <p>It's your data, it's your chart.</p>      
     </header>
-    <section class="container">
+
+    <section class="container inputs">
       <h3>You input your data, you get your chart.</h3>
-      <p>Making a bar chart with custom data. Yours!</p>
+      <p>Making a bar chart with custom data.</p>
+      <label for="userData">Input your data:</label>
+      <input id="userData" value="[1, 2, 3]">
+      <button>Make chart!</button>
     </section>
-    <section class="container" id="theChart">
+
+    <section class="container chart" id="theChart">
       <p> GRAPH HERE </p>
-      <p class="bar">Bar here.</p>
+      <p class="bar bar1">Bar 1 here.</p>
+      <p class="bar bar2">Bar 2 here.</p>
+      <p class="bar bar3">Bar 3 here.</p>
+      <p class="bar bar4">Bar 4 here.</p>
     </section>
+
     <footer class="container">
       <small>anacko</small>
-      <a href="github.com/anacko" target="blank">My GitHub</a>
+      <a href="https://github.com/anacko/Bar-Chart" target="blank">GitHub Project</a>
     </footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="assets/special_effects.js"></script>
+
   </body>
 </html>

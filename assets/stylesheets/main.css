@@ -69,12 +69,21 @@ table {
   background-color: cornflowerblue;
 }
 
+.button {
+  text-align: center;
+}
+
 .bar {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   width: 300px; /* <--- input maybe*/
   height: 30px;
   background-color: crimson;
+  text-align: right;
+}
+
+.input {
+  size: 100px;
 }
 
 /*
